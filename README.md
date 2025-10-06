@@ -13,8 +13,7 @@ Minimal Express.js services that implement:
 ### Install dependencies
 
 ```bash
-npm init -y
-npm install express axios
+npm install
 ```
 
 ### Project layout
@@ -31,13 +30,13 @@ Note: Each file creates and starts its own Express app on port 3000. Run only on
 
 ```bash
 # Option A: Users API
-node app.js
+npm run start:users
 
 # Option B: External fetch API
-node fetchData.js
+npm run start:posts
 
 # Option C: Create-user API with validation
-node middleware.js
+npm run start:create-user
 ```
 
 ### Endpoints

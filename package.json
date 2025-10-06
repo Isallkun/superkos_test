@@ -1,0 +1,20 @@
+{
+  "name": "superkos_test",
+  "version": "1.0.0",
+  "description": "superkos_test",
+  "main": "app.js",
+  "scripts": {
+    "start:users": "node app.js",
+    "start:posts": "node fetchData.js",
+    "start:create-user": "node middleware.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^5.1.0"
+  }
+}
